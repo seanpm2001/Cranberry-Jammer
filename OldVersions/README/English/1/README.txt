@@ -1,295 +1,257 @@
 
 ***
 
-# <projectName>
+<img src="/Cranberry_Jammer_1024pxIcon_V1_HighCompression.png" alt="Cranberry Jammer logo" width="256" height="256">
 
-![{Project icon} This image failed to load. It may be due to the file not being reached, or a general error. Reload the page to fix a possible general error.](Image.svg)
+# [Cranberry Jammer](#Cranberry-Jammer)
 
-# By:
-
-![{Developer name} This image failed to load. It may be due to the file not being reached, or a general error. Reload the page to fix a possible general error.](Image2.svg)
-
-### Top
-
-# `README.md`
+`⚡️📻️⚡️📡️ Cranberry Jammer is a hardware project for creating signal jammers. It also develops the CranberryOS project.`
 
 ***
 
-## Read this article in a different language
+## [Legal notice](#Legal-notice)
 
-[ar عربى](README_AR.md) [zh-t 中國傳統的）](README_ZH-T.md)[**en-us**](README.md) [fr français](README_FR.md) [de Deutsch](README_DE.md) [EO Esperanto](README_EO.md)  [ja 日本語](README_JA.md) [ko-south 韓國語](README_KO_SOUTH.md) [pl polski](README_PL.md) [ru русский](README_RU.md) [es en español](README_ES.md)
+In most countries, it is illegal for civilians to possess signal jammers. This software is intended for use on hardware contracted to law enforcement and other permitted users.
 
-Translations in languages other than English are machine translated and are not yet accurate. No errors have been fixed yet as of March 21st 2021. Please report translation errors [here](https://github.com/seanpm2001/<repoName>/issues/). Make sure to backup your correction with sources and guide me, as I don't know languages other than English well (I plan on getting a translator eventually) please cite [wiktionary](https://en.wiktionary.org) and other sources in your report. Failing to do so will result in a rejection of the correction being published.
+So far, no contracts have been made for this project (as of 2023, Tuesday, June 27th) it will likely be a long time before one is made.
 
-***
+<!--
+Legality
 
-# Index
-
-[00.0 - Top](#Top)
-
-> [00.1 - Title](#<projectName>)
-
-> [00.2 - Read this article in a different language](#Read-this-article-in-a-different-language)
-
-> [00.3 - Index](#Index)
-
-[01.0 - Description](#RepositoryName)
-
-[02.0 - About](#About)
-
-[03.0 - Wiki](#Wiki)
-
-[04.0 - Version history](#Version-history)
-
-[05.0 - Software status](#Software-status)
-
-[06.0 - Sponsor info](#Sponsor-info)
-
-[07.0 - Contributers](#Contributers)
-
-[08.0 - Issues](#Issues)
-
-> [08.1 - Current issues](#Current-issues)
-
-> [08.2 - Past issues](#Past-issues)
-
-> [08.3 - Past pull requests](#Past-pull-requests)
-
-> [08.4 - Active pull requests](#Active-pull-requests)
-
-[09.0 - Resources](#Resources)
-
-[10.0 - Contributing](#Contributing)
-
-[11.0 - About README](#About-README)
-
-[12.0 - README Version history](#README-version-history)
-
-[13.0 - Footer](#You-have-reached-the-end-of-the-README-file)
-
-> [13.1 - End of file](#EOF)
+I cannot produce this device without a legal contract, due to it being illegal for civilians to possess signal jammers. Even then, I don't have enough money to build one of these for myself, and wouldn't have much use for it.
+!-->
 
 ***
 
-# <repoName>
-<repo_description>
+## [Native devices](#Native-devices)
+
+The devices that are the core of this project have not yet been developed.
+
+**Devices**
+
+- [:octocat: `cb49n1j1`](https://github.com/seanpm2001/Cranberry-Jammer#cb49n1j1)
+
+> Regular variant (cb49n1j1)
+
+> > A red, portable signal jammer on wheels, estimated to cost somewhere between $4000 and $14000 (in 2023, May 6th money)
+
+- [:octocat: `cb49b1j1`](https://github.com/seanpm2001/Cranberry-Jammer#cb49b1j1)
+
+> Bulletproof variant (cb49b1j1)
+
+> > Costs about 8-10x more, but is bulletproof, and partially blast resistant. It is the same signal jammer, but the mount has heavy armor equivalent to a mini tank. Tracks instead of wheels are an optional feature for all-terrain usage. 
+
+***Codes:***
+
+- cb = cranberry jammer
+- 49 = radius
+- n1 = normal A
+- j1 = Jammer A
+- b1 = Bulletproof A
+
+> **Note** _Batteries sold separately (for now)_
 
 ***
 
-## About
+## [Operating System](#Operating-System)
 
-See above. <extendedRepoDescription>
+Cranberry Jammer devices run CranberryOS, a specialized Linux/TinyOS distribution that uses less than 90 megabytes of RAM (64 bit) and less than 180 megabytes of RAM (128 bit) and is optimized to perform all functions required for the device.
 
-***
-
-## Wiki
-
-[Click/tap here to view this projects Wiki](https://github.com/seanpm2001/<repoName>/wiki)
-
-If the project has been forked, the Wiki was likely removed. Luckily, I include an embedded version. You can view it [here](/External/ProjectWiki/).
+For more information, see: [:octocat: `CranberryOS`](https://github.com/seanpm2001/CranberryOS/)
 
 ***
 
-## Sponsor info
+## [Slogans](#Slogans)
 
-![SponsorButton.png](SponsorButton.png)
+> A signal jammer vs. a cellular world
 
-You can sponsor this project if you like, but please specify what you want to donate to. [See the funds you can donate to here](https://github.com/seanpm2001/Sponsor-info/tree/main/For-sponsors)
+> The main line of defense against a cellular world
 
-You can view other sponsor info [here](https://github.com/seanpm2001/Sponsor-info/)
-
-Try it out! The sponsor button is right up next to the watch/unwatch button.
+> Portable signal jammer machine
 
 ***
 
-## Version history
+## [Frequencies](#Frequencies)
 
-**Version history currently unavailable**
+The signal jammer is currently designed to target the following frequency levels:
 
-**No other versions listed**
-
-***
-
-## Software status
-
-All of my works are free some restrictions. DRM (**D**igital **R**estrictions **M**anagement) is not present in any of my works.
-
-![DRM-free_label.en.svg](DRM-free_label.en.svg)
-
-This sticker is supported by the Free Software Foundation. I never intend to include DRM in my works.
-
-I am ussing the abbreviation "Digital Restrictions Management" instead of the more known "Digital Rights Management" as the common way of addressing it is false, there are no rights with DRM. The spelling "Digital Restrictions Management" is more accurate, and is supported by [Richard M. Stallman (RMS)](https://en.wikipedia.org/wiki/Richard_Stallman) and the [Free Software Foundation (FSF)](https://en.wikipedia.org/wiki/Free_Software_Foundation)
-
-This section is used to raise awareness for the problems with DRM, and also to protest it. DRM is defective by design and is a major threat to all computer users and software freedom.
-
-Image credit: [defectivebydesign.org/drm-free/...](https://www.defectivebydesign.org/drm-free/how-to-use-label)
+- 2.4 GhZ
+- 5.0 GhZ
+- Other/unspecified
 
 ***
 
-## Contributers
+## [Radius](#Radius)
 
-Currently, I am the only contributer. Contributing is allowed, as long as you follow the rules of the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+Through the operating system, you can adjust the radius of the signal jammer between 6 levels (for [cb49](#Native-devices) models only)
 
-> * 1. [seanpm2001](https://github.com/seanpm2001/) - x commits (As of DoW, Month, DoM, Yr at ##:## a/pm)
-
-> * 2. No other contributers.
-
-***
-
-## Issues
-
-### Current issues
-
-* None at the moment
-
-* No other current issues
-
-If the repository has been forked, issues likely have been removed. Luckily I keep an archive of certain images [here](/.github/Issues/)
-
-[Read the privacy policy on issue archival here](/.github/Issues/README.md)
-
-**TL;DR**
-
-I archive my own issues. Your issue won't be archived unless you request it to be archived.
-
-### Past issues
-
-* None at the moment
-
-* No other past issues
-
-If the repository has been forked, issues likely have been removed. Luckily I keep an archive of certain images [here](/.github/Issues/)
-
-[Read the privacy policy on issue archival here](/.github/Issues/README.md)
-
-**TL;DR**
-
-I archive my own issues. Your issue won't be archived unless you request it to be archived.
-
-### Past pull requests
-
-* None at the moment
-
-* No other past pull requests
-
-If the repository has been forked, issues likely have been removed. Luckily I keep an archive of certain images [here](/.github/Issues/)
-
-[Read the privacy policy on issue archival here](/.github/Issues/README.md)
-
-**TL;DR**
-
-I archive my own issues. Your issue won't be archived unless you request it to be archived.
-
-### Active pull requests
-
-* None at the moment
-
-* No other active pull requests
-
-If the repository has been forked, issues likely have been removed. Luckily I keep an archive of certain images [here](/.github/Issues/)
-
-[Read the privacy policy on issue archival here](/.github/Issues/README.md)
-
-**TL;DR**
-
-I archive my own issues. Your issue won't be archived unless you request it to be archived.
+- Level 0: Off (0 meters) (0.00 feet) (nowhere)
+- Level 1: On (3 meters) (9.84 feet) (all angles)
+- Level 2: On (6 meters) (19.68 feet) (all angles)
+- Level 3: On (9 meters) (29.52 feet (all angles))
+- Level 4: On (12 meters) (39.37 feet) (all angles)
+- Level 5: On (15 meters) (49.21 feet) (all angles)
 
 ***
 
-## Resources
+## [Structure description](#Structure-description)
 
-Here are some other resources for this project:
+Blueprints are not yet available, so this textual description is provided for cb49 models:
 
-[Project language file](PROJECT_LANG.<fileExtensionForProgrammingLanguage>)
-
-[Join the discussion on GitHub](https://github.com/seanpm2001/<repoName>/discussions)
-
-No other resources at the moment.
+- Device rolls around, a metal base with 1 monitor on each side (4 total) (the monitors are optional, you really only need 1)
+- Signal jammer is behind the monitors, controls are just below each screen
 
 ***
 
-## Contributing
+## [Controls](#Controls)
 
-Contributing is allowed for this project, as long as you follow the rules of the `CONTRIBUTING.md` file.
+The following hardware controls are present:
 
-[Click/tap here to view the contributing rules for this project](CONTRIBUTING.md)
-
-***
-
-## About README
-
-File type: `Markdown (*.md)`
-
-File version: `0.1 (Sunday, March 21st 2021 at 7:50 pm)`
-
-Line count: `0,296`
+- On/off
+- Frequency types
+- Level +
+- Level -
+- Keyboard (optional, USB can be used as an alternative)
 
 ***
 
-## README version history
+## [Charging](#Charging)
 
-Version 0.1 (Sunday, March 21st 2021 at 7:50 pm)
-
-> Changes:
-
-> * Started the file
-
-> * Added the title section
-
-> * Added the index
-
-> * Added the about section
-
-> * Added the Wiki section
-
-> * Added the version history section
-
-> * Added the issues section.
-
-> * Added the past issues section
-
-> * Added the past pull requests section
-
-> * Added the active pull requests section
-
-> * Added the contributors section
-
-> * Added the contributing section
-
-> * Added the about README section
-
-> * Added the README version history section
-
-> * Added the resources section
-
-> * Added a software status section, with a DRM free sticker and message
-
-> * Added the sponsor info section
-
-> * No other changes in version 0.1
-
-Version 1 (Coming soon)
-
-> Changes:
-
-> * Coming soon
-
-> * No other changes in version 1
-
-Version 2 (Coming soon)
-
-> Changes:
-
-> * Coming soon
-
-> * No other changes in version 2
+The device is solar powered, do not cover the top of the device for long periods of time during use. It also has several removable batteries, with up to 150000 mAh in reserves (depending on how many batteries you add) minimum: 1, maximum: 100
 
 ***
 
-### You have reached the end of the README file
+## [Warnings](#Warnings)
 
-[Back to top](#Top) [Exit](https://github.com)
+This device is indiscriminate. It will attack/disrupt any wireless network connection within its set range, with no possibility for exclusions.
 
-### EOF
+This device may cause damage to the devices receiving the wireless connection. I would like to work on reducing this if possible.
+
+***
+
+## [Deployment types](#Deployment-types)
+
+Deployment formations for effective usage:
+
+### [Drone sky enforcer](#Drone-sky-enforcer)
+
+Place 4 cb49s on a 4 story platform, one per platform, to enforce a 60 meter no-drone zone
+
+### [Gridfree I](#Gridfree-I)
+
+Place cb49s all around a property, each one 3 to 15 meters apart, to create a dead zone around a property, separating it from the grid.
+
+***
+
+## [Why call it Cranberry?](#Why-call-it-Cranberry)
+
+Of the 5 berries I have eaten in my life, cranberries are my least favorite, and it is one of the few berries that don't have any major software projects associated with it (unlike Raspberry Pi or BlackberryOS) cranberries are sour, and this device would sour the relations of those who possess it.
+
+***
+
+## [Original draft](#Original-draft)
+
+```plain-text
+Cranberry Jammer
+
+Slogans:
+
+A signal jammer vs. a cellular world
+The main line of defense against a cellular world
+
+Portable signal jammer machine
+
+Frequencies:
+
+2.4 GhZ, 5.0 Ghz, other
+
+Radius levels
+
+Level 0: Off (0 meters) (0.00 feet) (nowhere)
+Level 1: On (3 meters) (9.84 feet) (all angles)
+Level 2: On (6 meters) (19.68 feet) (all angles)
+Level 3: On (9 meters) (29.52 feet (all angles))
+Level 4: On (12 meters) (39.37 feet) (all angles)
+Level 5: On (15 meters) (49.21 feet) (all angles)
+
+Device rolls around, a metal base with 1 monitor on each side (4 total)
+Signal jammer is behind the monitors, controls are just below each screen
+
+Controls
+
+On/off
+Frequency types
+Level +
+Level -
+
+Charger
+Solar powered, solar comes from the top
+Several removable batteries, up to 150000 mAh (depending on how many batteries you add) minimum: 1, maximum: 100
+
+Legality
+
+I cannot produce this device without a legal contract, due to it being illegal for civilians to possess signal jammers. Even then, I don't have enough money to build one of these for myself, and wouldn't have much use for it.
+
+Warnings
+
+This device is indiscriminate. It will attack/disrupt any wireless network connection within its set range, with no possibility for exclusions.
+
+This device may cause damage to the devices receiving the wireless connection. I would like to work on reducing this if possible.
+
+Operating system: CranberryOS
+
+Deployment types:
+
+Drone sky enforcer
+
+Place 4 cb49s on a 4 story platform, one per platform, to enforce a 60 meter no-drone zone
+
+Gridfree I
+
+Place cb49s all around a property, each one 3 to 15 meters apart, to create a dead zone around a property, separating it from the grid.
+
+Why call it Cranberry?
+
+Of the 5 berries I have eaten in my life, cranberries are my least favorite, and it is one of the few berries that doesn't have any major software associated with it (unlike Raspberry Pi or BlackberryOS) cranberries are sour, and this device would sour the relations of those who possess it.
+
+Variants
+
+Codes:
+
+cb = cranberry jammer
+49 = radius
+n1 = normal A
+j1 = Jammer A
+b1 = Bulletproof A
+
+Regular variant (cb49n1j1)
+A red, portable signal jammer on wheels, estimated to cost somewhere between $4000 and $14000 (in 2023, May 6th money)
+
+Bulletproof variant (cb49b1j1)
+Costs about 8-10x more, but is bulletproof, and partially blast resistant. It is the same signal jammer, but the mount has heavy armor equivalent to a mini tank. Tracks instead of wheels are an optional feature for all-terrain usage.
+
+Note: batteries sold separately
+
+```
+
+***
+
+## [Documentation](#Documentation)
+
+Additional documentation is available [:octocat: `in a separate repository`](https://github.com/seanpm2001/Cranberry-Jammer_Docs/)
+
+***
+
+# [File info](#File-info)
+
+**File version:** `1 (2023, Wednesday, June 28th at 10:53 pm PST)`
+
+***
+
+# [Footer](#Footer)
+
+You have reached the end of this page.
+
+###### [EOF](#EOF)
 
 ***
